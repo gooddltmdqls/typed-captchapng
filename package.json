@@ -1,5 +1,5 @@
 {
-  "name": "captchapng2",
+  "name": "typed-captchapng",
   "version": "1.0.3",
   "description": "A numeric captcha generator for Node.js",
   "author": "Lellansin",
