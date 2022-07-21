@@ -3,17 +3,19 @@
 
 More faster and colorful version of [`captchapng`](https://www.npmjs.com/package/captchapng). (2~3 faster than orginal)
 
+Added typings into captchapng2
+
 ## Installation
 
 ```shell
-npm install captchapng2
+npm install typed-captchapng
 ```
 
 ## Examples
 
 ```javascript
 const http = require('http');
-const captchapng = require('captchapng2');
+const captchapng = require('typed-captchapng');
 
 http.createServer(function (req, res) {
   if(req.url == '/captcha.png') {
